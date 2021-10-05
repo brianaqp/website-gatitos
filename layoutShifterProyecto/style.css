@@ -52,7 +52,7 @@ div p {
 
 main {
     width: 100vw;
-    height: 150vh;
+    height: 250vh;
     background-color: RGB(244, 165, 176);
 }
 
@@ -140,11 +140,39 @@ main div {
 
 }
 
+.main-nosotros
+{
+    background-color: rgb(203, 203, 156);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+}
 
+.main-nosotros section{
+    background-color: rgb(109, 160, 163);
+    width: 50%;
+    height: 50%;
+}
 
+.main-nosotros h1 {
+    background-color: inherit;
+    height: 50%;
+    
+}
+
+.main-nosotros section div {
+    background-color: inherit;
+    height: 50%;
+}
+
+.main-nosotros div {
+    background-color: inherit;
+    height: 100%;
+}
 
  footer {
-    width: 100vw;
+    width: 100%;
     height: 20vh;
-     background-color: rgb(126, 30, 43);
+    background-color: rgb(126, 30, 43);
  }
