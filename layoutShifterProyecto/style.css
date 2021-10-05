@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+div h1 {
+    font-size: 3rem;
+}
+
+div h2 {
+    font-size: 2.2rem;
+}
+
+div p {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.nav-container {
+    background-color: #f5d0dd;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-container li {
+    padding-left: 2.5rem;
+    font-size: 2rem;
+}
+
+
+.logo img {
+    width: 10rem;
+    height: 8rem;
+}
+
+
+main {
+    width: 100vw;
+    height: 150vh;
+    background-color: RGB(244, 165, 176);
+}
+
+/* Aqui ta el color de los divs con datos */
+main div {
+    background-color: rgb(167, 230, 216);
+}
+
+.main-picture  {
+    display: block;
+    width: 100vw;
+    height: 30vh;
+    min-width: 300px;
+    background-color: RGB(244, 165, 176);
+}
+
+.main-picture figure {
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.main-picture figure img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color:rgb(244, 165, 176);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
+ .container {
+     width: 28rem;
+     /* height: 38rem; */
+     padding-left: 1rem;
+     padding-right: 1rem;
+     /* z-index: ; */
+ }
+
+ .main-adopcion{
+   background-color: rgb(167, 230, 216); 
+   width: 100vw;
+   height: 50vh;
+    
+}
+ 
+ 
+ .main-adopcion h1 {
+     /* display: block; */
+    background-color: transparent;
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    padding-bottom: 0.5rem;
+ }
+
+ .main-iconos {
+     display: flex;
+     flex-flow: row wrap;
+     width: 100vw;
+     justify-content: space-evenly  ;
+     
+ }
+
+ .icono-container {
+    width: 18rem;
+    height: 18rem;
+}
+
+ .icono-container img {
+     width: 100%;
+ }
+
+ .icono-container p {
+    text-align: center;
+
+}
+
+
+
+
+ footer {
+    width: 100vw;
+    height: 20vh;
+     background-color: rgb(126, 30, 43);
+ }
